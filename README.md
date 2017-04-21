@@ -128,3 +128,10 @@
 > docker ps
 
 ![](/images/25.png)
+
+# Подключение к контейнеру
+
+Для подключения к контейнеру воспользуемся командой
+> winpty docker exec -it lab0 bash
+
+![](/images/26.png)
