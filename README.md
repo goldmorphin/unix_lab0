@@ -17,3 +17,24 @@
 
   </p>
   </details>
+
+# Установка docker-machine с помощью Git
+
+Открываем консоль установленного Git и выполняем следующие команды:
+>if [[ ! -d "$HOME/bin" ]]; then mkdir -p "$HOME/bin"; fi && \
+  curl -L https://github.com/docker/machine/releases/download/v0.10.0/docker-machine-Windows-x86_64.exe > "$HOME/bin/docker-machine.exe" && \
+  chmod +x "$HOME/bin/docker-machine.exe" 
+  
+После установки, командой
+> docker-machine version
+
+Проверяем корректность установки.
+[](/images/13.png)
+  <details>
+    <summary>В скриншотах...</summary><p>
+<!-- alternative placement of p shown above -->
+
+![](/images/13.png)![](/images/14.png)![](/images/15.png)![](/images/16.png)
+
+  </p>
+  </details>
