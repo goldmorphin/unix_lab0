@@ -204,7 +204,7 @@ ls >> protocol
 Для создания образа необходимо изначально подключится к учётной записи на Docker Hub
 Используя команду 
 
-> docker login USER PASS
+> docker login -u USER -p PASS
 
 Затем выполнить commit
 > docker commit REP YOUR_REP
@@ -212,3 +212,5 @@ ls >> protocol
 После этого "пушим"
 
 > docker push YOUR_REP
+
+![](/images/28.png)
