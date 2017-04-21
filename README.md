@@ -47,3 +47,32 @@
 > chmod +x "$HOME/bin/docker.exe"
 
 Которая позволит файлу выполнятся, установит права на выполнение если быть чуть более точным.
+![](/images/17.png)
+
+
+# Создание docker-machine
+
+Для создания docker-machine выполните команду
+
+> docker-machine create <НАЗВАНИЕ>
+
+![](/images/18.png)
+
+  <details>
+    <summary>Процесс создания</summary><p>
+<!-- alternative placement of p shown above -->
+
+![](/images/19.png)![](/images/20.png)
+
+  </p>
+  </details>
+  
+  После создания, выполним команду
+  
+  > docker-machine ls
+  
+  Чтобы посмотреть список всех машиных, в том числе только что новосозданной
+  
+  [](/images/21.png)
+  
+  
