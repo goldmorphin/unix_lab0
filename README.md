@@ -38,6 +38,8 @@
 
   </p>
   </details>
+  
+  
 # Установка docker-client
 
 Установка клиента docker проще, чем может показаться. Скачиваем [по ссылке](https://get.docker.com/builds/Windows/x86_64/docker-17.04.0-ce.zip) архив, распаковываем и копируем docker.exe в папку, куда была установлена docker-machine.
