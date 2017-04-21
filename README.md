@@ -101,17 +101,17 @@
 >  docker-machine env <ИМЯ МАШИНЫ>
 
 На выводе получим
-[](/images/22.png)
+![](/images/22.png)
 
 Читаем последние две строки и выполняем то, что от нас хотят
 
 > eval $("C:\Users\Илья\bin\docker-machine.exe" env lab0)
 
-[](/images/23.png)
+![](/images/23.png)
 
 После этого можно выполнить например команду
 
 >docker
 
 Чтобы убедится в корреткности наших действий.
-[](/images/24.png)
+![](/images/24.png)
